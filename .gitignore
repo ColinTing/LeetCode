@@ -13,7 +13,7 @@
 # Golang Ignore files #
 #######################
 *.toml
-
+pkg/
 
 ##########################
 # Jetbrains Ignore files #
