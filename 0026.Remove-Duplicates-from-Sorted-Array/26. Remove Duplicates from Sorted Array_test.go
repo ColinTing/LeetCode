@@ -53,7 +53,7 @@ func Test_Problem26(t *testing.T) {
 	for _, tt := range qs {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := removeDuplicates1(tt.para26.nums); got != tt.ans26.result {
-				t.Errorf("removeDuplicates() = %v, want %v", got, tt.ans26.result)
+				t.Errorf("removeDuplicates() = %v, but want %v", got, tt.ans26.result)
 			}
 		})
 	}

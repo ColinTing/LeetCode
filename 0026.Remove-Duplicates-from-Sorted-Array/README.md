@@ -6,7 +6,7 @@
 
 不要使用额外的数组空间，你必须在 **原地** 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
 
-Example 1:
+**Example 1:**
 
 ```
 输入：nums = [1,1,2]
@@ -16,7 +16,7 @@ Example 1:
 解释：函数应该返回新的长度 2 ，并且原数组 nums 的前两个元素被修改为 1, 2 。不需要考虑数组中超出新长度后面的元素。
 ```
 
-Example 2:
+**Example 2:**
 
 ```
 输入：nums = [0,0,1,1,1,2,2,3,3,4]
@@ -54,40 +54,60 @@ for (int i = 0; i < len; i++) {
 
 这里数组的删除并不是真的删除，只是将删除的元素移动到数组后面的空间内，然后返回数组实际剩余的元素个数，
 
-可有两种解法，1.双指针法  2.重复值个数计算法（记录当前替换位,通过减去当前重复值个数可得）
+
+- 解法一：双指针法  
+- 解法二：重复值个数计算法（记录当前替换位,通过减去当前重复值个数可得）
 
 ## 代码
-解法一：双指针法
 
-Java版
+
+**Java版**
 
 ```java
+class Solution {
+
     /**
+     * 解法一：双指针法
      * i: 重复元素的起始位置
      * j: 当前数组的迭代位置
      * 如果i、j位置元素不重复，i往后挪动一位，并把j位元素放置到i位
      * i从0开始计数，所以返回i+1个元素
      */
-    class Solution {
-        public int removeDuplicates(int[] nums) {
-            int i = 0;
-            for (int j = 1; j < nums.length; j++) {
-                if (nums[i] != nums[j]) {
-                    nums[++i] = nums[j];
-                }
+    public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[i] != nums[j]) {
+                nums[++i] = nums[j];
             }
-            return i + 1;
         }
+        return i + 1;
     }
 
+    /**
+     * 解法二：重复值个数计算法
+     * dupCt: 重复元素个数（通过迭代比对前一个数得）
+     * 替换位索引 = 当前迭代索引 - 重复个数
+     */
+    public int removeDuplicates1(int[] nums) {
+        int dupCt = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1]) {
+                dupCt++;
+            } else {
+                nums[i - dupCt] = nums[i];
+            }
+        }
+        return nums.length - dupCt;
+    }    
+}
 ```
 
-Golang版
-
+**Golang版**
 
 ```go
 package leetcode
 
+//解法一：双指针法
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -101,38 +121,9 @@ func removeDuplicates(nums []int) int {
 	}
 	return last + 1
 }
-```
 
-解法二：重复值个数计算法
-
-Java版
-
-```java
-    /**
-     * dupCt: 重复元素个数（通过迭代比对前一个数得）
-     * 替换位索引 = 当前迭代索引 - 重复个数
-     */
-    class Solution {
-        public int removeDuplicates(int[] nums) {
-            int dupCt = 0;
-            for (int i = 1; i < nums.length; i++) {
-                if (nums[i] == nums[i - 1]) {
-                    dupCt++;
-                } else {
-                    nums[i - dupCt] = nums[i];
-                }
-            }
-            return nums.length - dupCt;
-        }
-    }
-```
-
-Golang版
-
-```go
-package leetcode
-
-func removeDuplicates(nums []int) int {
+//解法二：重复值个数计算法
+func removeDuplicates1(nums []int) int {
 	if len(nums) == 0 {
 		return 0
 	}
