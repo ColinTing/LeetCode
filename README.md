@@ -9,3 +9,9 @@ LeetCode Java/Golang solutions
 |---| ----- | -------- | ---------- |
 |26|[删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java/Golang](./0026.Remove-Duplicates-from-Sorted-Array/README.md)|简单|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java/Golang](./0189.Rotate-Array/README.md)|中等|
+
+> 链表 - Linked List
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java/Golang](./0021.Merge-Two-Sorted-Lists/README.md)|简单|
