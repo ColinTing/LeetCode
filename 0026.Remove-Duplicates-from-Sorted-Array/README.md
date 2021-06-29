@@ -54,7 +54,7 @@ for (int i = 0; i < len; i++) {
 
 这里数组的删除并不是真的删除，只是将删除的元素移动到数组后面的空间内，然后返回数组实际剩余的元素个数，
 
-可有两种解法，1.计数法  2.双指针法
+可有两种解法，1.双指针法  2.重复值个数计算法（记录当前替换位,通过减去当前重复值个数可得）
 
 ## 代码
 解法一：双指针法
@@ -63,7 +63,6 @@ Java版
 
 ```java
     /**
-     *
      * i: 重复元素的起始位置
      * j: 当前数组的迭代位置
      * 如果i、j位置元素不重复，i往后挪动一位，并把j位元素放置到i位
@@ -101,5 +100,50 @@ func removeDuplicates(nums []int) int {
 		}
 	}
 	return last + 1
+}
+```
+
+解法二：重复值个数计算法
+
+Java版
+
+```java
+    /**
+     * dupCt: 重复元素个数（通过迭代比对前一个数得）
+     * 替换位索引 = 当前迭代索引 - 重复个数
+     */
+    class Solution {
+        public int removeDuplicates(int[] nums) {
+            int dupCt = 0;
+            for (int i = 1; i < nums.length; i++) {
+                if (nums[i] == nums[i - 1]) {
+                    dupCt++;
+                } else {
+                    nums[i - dupCt] = nums[i];
+                }
+            }
+            return nums.length - dupCt;
+        }
+    }
+```
+
+Golang版
+
+```go
+package leetcode
+
+func removeDuplicates(nums []int) int {
+	if len(nums) == 0 {
+		return 0
+	}
+	dupCt := 0
+	for finder := 1; finder < len(nums); finder++ {
+		if nums[finder] == nums[finder - 1] {
+			dupCt++
+		} else {
+			nums[finder - dupCt] = nums[finder]
+		}
+	}
+	return len(nums) - dupCt
 }
 ```
