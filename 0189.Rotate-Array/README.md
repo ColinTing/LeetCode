@@ -12,22 +12,31 @@
 **Example 1:**
 
 ```
-Input: nums = [1,2,3,4,5,6,7], k = 3
-Output: [5,6,7,1,2,3,4]
-Explanation:
-rotate 1 steps to the right: [7,1,2,3,4,5,6]
-rotate 2 steps to the right: [6,7,1,2,3,4,5]
-rotate 3 steps to the right: [5,6,7,1,2,3,4]
+输入: nums = [1,2,3,4,5,6,7], k = 3
+
+输出: [5,6,7,1,2,3,4]
+
+解释:
+
+向右旋转 1 步: [7,1,2,3,4,5,6]
+
+向右旋转 2 步: [6,7,1,2,3,4,5]
+
+向右旋转 3 步: [5,6,7,1,2,3,4]
 ```
 
 **Example 2:**
 
 ```
-Input: nums = [-1,-100,3,99], k = 2
-Output: [3,99,-1,-100]
-Explanation: 
-rotate 1 steps to the right: [99,-1,-100,3]
-rotate 2 steps to the right: [3,99,-1,-100]
+输入：nums = [-1,-100,3,99], k = 2
+
+输出：[3,99,-1,-100]
+
+解释: 
+
+向右旋转 1 步: [99,-1,-100,3]
+
+向右旋转 2 步: [3,99,-1,-100]
 ```
 
 **提示：**
