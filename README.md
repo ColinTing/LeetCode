@@ -8,7 +8,10 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |26|[删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java/Golang](./0026.Remove-Duplicates-from-Sorted-Array/README.md)|简单|
+|88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java/Golang](./0088.Merge-Sorted-Array/README.md)|简单|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java/Golang](./0189.Rotate-Array/README.md)|中等|
+
+
 
 > 链表 - Linked List
 
