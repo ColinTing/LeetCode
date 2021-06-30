@@ -1,5 +1,6 @@
 package leetcode
 
+//解法一:三次旋转法, 时间复杂度 O(n)，空间复杂度 O(1)
 func rotate(nums []int, k int) {
 	k %= len(nums)
 	reverse(nums)
@@ -13,9 +14,9 @@ func reverse(nums []int) {
 	}
 }
 
+//解法二：迭代取模赋值法, 时间复杂度 O(n)，空间复杂度 O(n)
 func rotate1(nums []int, k int) {
 	newNums := make([]int, len(nums))
-	k %= len(nums)
 	for i, v := range nums {
 		newNums[(i+k)%len(nums)] = v
 	}
