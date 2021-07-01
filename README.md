@@ -21,3 +21,10 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java/Golang](./0021.Merge-Two-Sorted-Lists/README.md)|简单|
+
+
+> 字符串 - String
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|49|[字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Java/Golang](./0049.Group-Anagrams/README.md)|中等|
