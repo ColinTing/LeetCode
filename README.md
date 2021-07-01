@@ -28,3 +28,4 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |49|[字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Java/Golang](./0049.Group-Anagrams/README.md)|中等|
+|242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java/Golang](./0242.Valid-Anagram/README.md)|简单|
