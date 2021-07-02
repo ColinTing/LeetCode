@@ -63,7 +63,7 @@ func Test_Problem589(t *testing.T) {
 	for _, tt := range qs {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := preorder(tt.para589.root); !reflect.DeepEqual(got, tt.ans589.result) {
-				t.Errorf("preorder() = %v, want %v", got, tt.ans589.result)
+				t.Errorf("preorder() = %v, but want %v", got, tt.ans589.result)
 			}
 		})
 	}

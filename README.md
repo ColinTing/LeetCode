@@ -33,4 +33,5 @@ LeetCode Java/Golang solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|94|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java/Golang](./0094.Binary-Tree-Inorder-Traversal/README.md)|简单|
 |589|[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java/Golang](./0589.N-ary-Tree-Preorder-Traversal/README.md)|简单|
