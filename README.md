@@ -21,7 +21,7 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java/Golang](./0021.Merge-Two-Sorted-Lists/README.md)|简单|
-
+|589|[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java/Golang](./0589.N-ary-Tree-Preorder-Traversal/README.md)|简单|
 
 > 字符串 - String
 
