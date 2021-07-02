@@ -21,7 +21,6 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java/Golang](./0021.Merge-Two-Sorted-Lists/README.md)|简单|
-|589|[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java/Golang](./0589.N-ary-Tree-Preorder-Traversal/README.md)|简单|
 
 > 字符串 - String
 
@@ -29,3 +28,9 @@ LeetCode Java/Golang solutions
 |---| ----- | -------- | ---------- |
 |49|[字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Java/Golang](./0049.Group-Anagrams/README.md)|中等|
 |242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java/Golang](./0242.Valid-Anagram/README.md)|简单|
+
+> 二叉树 - Binary Tree
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|589|[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java/Golang](./0589.N-ary-Tree-Preorder-Traversal/README.md)|简单|
