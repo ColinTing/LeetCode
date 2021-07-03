@@ -58,7 +58,7 @@ class Solution {
 
 **Golang版**
 
-```
+```go
 package leetcode
 
 func groupAnagrams(strs []string) [][]string {

@@ -67,7 +67,7 @@ class Solution {
 
 **Golang版**
 
-```
+```go
 package leetcode
 
 func twoSum(nums []int, target int) []int {
