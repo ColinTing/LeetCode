@@ -43,7 +43,7 @@
 
 **Java版**
 
-```
+```java
 class Solution {
     public int nthUglyNumber(int n) {
         int[] uglys = new int[n];
