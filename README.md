@@ -35,6 +35,7 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |94|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java/Golang](./0094.Binary-Tree-Inorder-Traversal/README.md)|简单|
+|236|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java/Golang](./0236.Lowest-Common-Ancestor-of-a-Binary-Tree/README.md)|中等|
 |429|[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java/Golang](./0429.N-Ary-Tree-Level-Order-Traversal/README.md)|中等|
 |589|[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java/Golang](./0589.N-ary-Tree-Preorder-Traversal/README.md)|简单|
 
