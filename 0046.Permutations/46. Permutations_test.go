@@ -38,7 +38,7 @@ func Test_Problem46(t *testing.T) {
 	for _, tt := range qs {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := permute(tt.para46.nums); !reflect.DeepEqual(got, tt.ans46.result) {
-				t.Errorf("combine() = %v, but want %v", got, tt.ans46.result)
+				t.Errorf("permute() = %v, but want %v", got, tt.ans46.result)
 			}
 		})
 	}

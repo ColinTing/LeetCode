@@ -51,4 +51,5 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |46|[全排列](https://leetcode-cn.com/problems/permutations/) | [Java/Golang](./0046.Permutations/README.md)|中等|
+|47|[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java/Golang](./0047.Permutations-II/README.md)|中等|
 |77|[组合](https://leetcode-cn.com/problems/combinations/) | [Java/Golang](./0077.Combinations/README.md)|中等|
