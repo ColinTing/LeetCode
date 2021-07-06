@@ -44,6 +44,7 @@ LeetCode Java/Golang solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java/Golang](./0121.Best-Time-to-Buy-and-Sell-Stock/README.md)|简单|
 |264|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [Java/Golang](./0264.Ugly-Number-II/README.md)|中等|
 
 > 回溯 - Backtracking
@@ -58,4 +59,4 @@ LeetCode Java/Golang solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Java/Golang](./0860.Lemonade-Change/README.md)|中等|
+|860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Java/Golang](./0860.Lemonade-Change/README.md)|简单|
