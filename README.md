@@ -53,3 +53,9 @@ LeetCode Java/Golang solutions
 |46|[全排列](https://leetcode-cn.com/problems/permutations/) | [Java/Golang](./0046.Permutations/README.md)|中等|
 |47|[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java/Golang](./0047.Permutations-II/README.md)|中等|
 |77|[组合](https://leetcode-cn.com/problems/combinations/) | [Java/Golang](./0077.Combinations/README.md)|中等|
+
+> 贪心 - Greedy
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Java/Golang](./0860.Lemonade-Change/README.md)|中等|
