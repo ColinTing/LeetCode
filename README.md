@@ -46,6 +46,12 @@ LeetCode Java/Golang solutions
 |---| ----- | -------- | ---------- |
 |127|[单词接龙](https://leetcode-cn.com/problems/word-ladder/) | [Java/Golang](./0127.Word-Ladder/README.md)|困难|
 
+> 深度优先搜索 - Depth-First Search
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|200|[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [Java/Golang](./0200.Number-of-Islands/README.md)|中等|
+
 > 动态规划 - Dynamic Programming
 
 | # | Title | Solution | Difficulty |
