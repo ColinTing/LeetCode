@@ -51,6 +51,7 @@ LeetCode Java/Golang solutions
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |200|[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [Java/Golang](./0200.Number-of-Islands/README.md)|中等|
+|529|[扫雷游戏](https://leetcode-cn.com/problems/minesweeper/) | [Java/Golang](./0529.Minesweeper/README.md)|中等|
 
 > 动态规划 - Dynamic Programming
 
