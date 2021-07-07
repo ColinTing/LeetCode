@@ -46,6 +46,7 @@ LeetCode Java/Golang solutions
 |---| ----- | -------- | ---------- |
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java/Golang](./0033.Search-in-Rotated-Sorted-Array/README.md)|中等|
 |74|[搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Java/Golang](./0074.Search-a-2D-Matrix/README.md)|中等|
+|153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [Java/Golang](./0153.Find-Minimum-in-Rotated-Sorted-Array/README.md)|中等|
 
 > 广度优先搜索 - Breadth-First Search
 
