@@ -72,5 +72,6 @@ LeetCode Java/Golang solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|55|[跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java/Golang](./0055.Jump-Game/README.md)|中等|
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [Java/Golang](./0455.Assign-Cookies/README.md)|简单|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Java/Golang](./0860.Lemonade-Change/README.md)|简单|
