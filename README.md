@@ -40,6 +40,12 @@ LeetCode Java/Golang solutions
 |429|[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java/Golang](./0429.N-Ary-Tree-Level-Order-Traversal/README.md)|中等|
 |589|[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java/Golang](./0589.N-ary-Tree-Preorder-Traversal/README.md)|简单|
 
+> 二分查找 - Binary Search
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java/Golang](./0033.Search-in-Rotated-Sorted-Array/README.md)|中等|
+
 > 广度优先搜索 - Breadth-First Search
 
 | # | Title | Solution | Difficulty |
@@ -75,3 +81,4 @@ LeetCode Java/Golang solutions
 |55|[跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java/Golang](./0055.Jump-Game/README.md)|中等|
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [Java/Golang](./0455.Assign-Cookies/README.md)|简单|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Java/Golang](./0860.Lemonade-Change/README.md)|简单|
+
