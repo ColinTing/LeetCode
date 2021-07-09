@@ -17,8 +17,7 @@ type para242 struct {
 	t string
 }
 
-// ans 是答案
-// one 代表第一个答案
+
 type ans242 struct {
 	result bool
 }

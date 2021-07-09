@@ -12,8 +12,7 @@ type question88 struct {
 	ans88
 }
 
-// para 是参数
-// one 代表第一个参数
+
 type para88 struct {
 	nums1 []int
 	m   int
@@ -21,8 +20,7 @@ type para88 struct {
 	n   int
 }
 
-// ans 是答案
-// one 代表第一个答案
+
 type ans88 struct {
 	result []int
 }

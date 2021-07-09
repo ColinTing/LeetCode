@@ -65,6 +65,7 @@ LeetCode Java/Golang solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|32|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java/Golang](./0032.Longest-Valid-Parentheses/README.md)|困难|
 |64|[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java/Golang](./0064.Minimum-Path-Sum/README.md)|中等|
 |91|[解码方法](https://leetcode-cn.com/problems/decode-ways/) | [Java/Golang](./0091.Decode-Ways/README.md)|中等|
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java/Golang](./0121.Best-Time-to-Buy-and-Sell-Stock/README.md)|简单|

@@ -16,8 +16,7 @@ type para42 struct {
 	height []int
 }
 
-// ans 是答案
-// one 代表第一个答案
+
 type ans42 struct {
 	result int
 }
