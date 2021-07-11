@@ -16,7 +16,6 @@ LeetCode Java/Golang solutions
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java/Golang](./0189.Rotate-Array/README.md)|中等|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java/Golang](./0283.Move-Zeroes/README.md)|简单|
 
-
 > 链表 - Linked List
 
 | # | Title | Solution | Difficulty |
@@ -61,20 +60,6 @@ LeetCode Java/Golang solutions
 |200|[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [Java/Golang](./0200.Number-of-Islands/README.md)|中等|
 |529|[扫雷游戏](https://leetcode-cn.com/problems/minesweeper/) | [Java/Golang](./0529.Minesweeper/README.md)|中等|
 
-> 动态规划 - Dynamic Programming
-
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|32|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java/Golang](./0032.Longest-Valid-Parentheses/README.md)|困难|
-|64|[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java/Golang](./0064.Minimum-Path-Sum/README.md)|中等|
-|72|[编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [Java/Golang](./0072.Edit-Distance/README.md)|困难|
-|91|[解码方法](https://leetcode-cn.com/problems/decode-ways/) | [Java/Golang](./0091.Decode-Ways/README.md)|中等|
-|121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java/Golang](./0121.Best-Time-to-Buy-and-Sell-Stock/README.md)|简单|
-|122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java/Golang](./0122.Best-Time-to-Buy-and-Sell-Stock-II/README.md)|简单|
-|221|[最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [Java/Golang](./0221.Maximal-Square/README.md)|中等|
-|264|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [Java/Golang](./0264.Ugly-Number-II/README.md)|中等|
-|647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [Java/Golang](./0647.Palindromic-Substrings/README.md)|中等|
-
 > 回溯 - Backtracking
 
 | # | Title | Solution | Difficulty |
@@ -92,4 +77,18 @@ LeetCode Java/Golang solutions
 |55|[跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java/Golang](./0055.Jump-Game/README.md)|中等|
 |455|[分发饼干](https://leetcode-cn.com/problems/assign-cookies/) | [Java/Golang](./0455.Assign-Cookies/README.md)|简单|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/) | [Java/Golang](./0860.Lemonade-Change/README.md)|简单|
+
+> 动态规划 - Dynamic Programming
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|32|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java/Golang](./0032.Longest-Valid-Parentheses/README.md)|困难|
+|64|[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java/Golang](./0064.Minimum-Path-Sum/README.md)|中等|
+|72|[编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [Java/Golang](./0072.Edit-Distance/README.md)|困难|
+|91|[解码方法](https://leetcode-cn.com/problems/decode-ways/) | [Java/Golang](./0091.Decode-Ways/README.md)|中等|
+|121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java/Golang](./0121.Best-Time-to-Buy-and-Sell-Stock/README.md)|简单|
+|122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java/Golang](./0122.Best-Time-to-Buy-and-Sell-Stock-II/README.md)|简单|
+|221|[最大正方形](https://leetcode-cn.com/problems/maximal-square/) | [Java/Golang](./0221.Maximal-Square/README.md)|中等|
+|264|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [Java/Golang](./0264.Ugly-Number-II/README.md)|中等|
+|647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [Java/Golang](./0647.Palindromic-Substrings/README.md)|中等|
 
