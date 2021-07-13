@@ -13,6 +13,7 @@ LeetCode Java/Golang solutions
 |42|[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [Java/Golang](./0042.Trapping-Rain-Water/README.md)|困难|
 |66|[加一](https://leetcode-cn.com/problems/plus-one/) | [Java/Golang](./0066.Plus-One/README.md)|简单|
 |88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java/Golang](./0088.Merge-Sorted-Array/README.md)|简单|
+|164|[最大间距](https://leetcode-cn.com/problems/maximum-gap/) | [Java/Golang](./0164.Maximum-Gap/README.md)|困难|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java/Golang](./0189.Rotate-Array/README.md)|中等|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java/Golang](./0283.Move-Zeroes/README.md)|简单|
 
