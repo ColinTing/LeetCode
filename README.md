@@ -97,3 +97,8 @@ LeetCode Java/Golang solutions
 |264|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | [Java/Golang](./0264.Ugly-Number-II/README.md)|中等|
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) | [Java/Golang](./0647.Palindromic-Substrings/README.md)|中等|
 
+> 堆（优先队列）- Heap (Priority Queue)
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|378|[有序矩阵中第 K 小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./0378.Kth-Smallest-Element-in-a-Sorted-Matrix/README.md)|中等|
