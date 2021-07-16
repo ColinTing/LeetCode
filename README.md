@@ -86,6 +86,7 @@ LeetCode Java/Golang solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java/Golang](./0020.Valid-Parentheses/README.md)|简单|
 |32|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java/Golang](./0032.Longest-Valid-Parentheses/README.md)|困难|
 |64|[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java/Golang](./0064.Minimum-Path-Sum/README.md)|中等|
 |72|[编辑距离](https://leetcode-cn.com/problems/edit-distance/) | [Java/Golang](./0072.Edit-Distance/README.md)|困难|
