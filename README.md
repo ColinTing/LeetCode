@@ -72,6 +72,7 @@ LeetCode Java/Golang solutions
 |46|[全排列](https://leetcode-cn.com/problems/permutations/) | [Java/Golang](./0046.Permutations/README.md)|中等|
 |47|[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Java/Golang](./0047.Permutations-II/README.md)|中等|
 |77|[组合](https://leetcode-cn.com/problems/combinations/) | [Java/Golang](./0077.Combinations/README.md)|中等|
+|113|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) | [Java/Golang](./0113.Path-Sum-II/README.md)|中等|
 
 > 贪心 - Greedy
 
